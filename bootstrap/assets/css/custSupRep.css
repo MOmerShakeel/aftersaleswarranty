@@ -1,0 +1,53 @@
+body{
+  font-family: sans-serif;
+  color: rgb(5, 5, 5);
+}
+
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.left {
+  left: 0;
+  background-color: #d0d0ce;
+}
+
+.right {
+  right: 0;
+  background-color: rgb(165, 192, 92);
+}
+
+.container {
+  padding: 20px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.searchBar {
+  width: 200px;
+  height: 10px;
+  border-radius: 10px;
+  border: 1px solid #000000;
+  padding: 3px 6px;
+  font-size: 8px;
+}
+
+.btn-danger{
+color:#fff;
+background-color:#dc3545;
+border-color:#dc3545
+}
